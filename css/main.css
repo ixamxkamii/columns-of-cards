@@ -24,6 +24,7 @@ h2 {
   font-size: 1rem;
   display: block;
   margin: 0;
+  text-align: left;
 }
 
 h3 {
@@ -70,13 +71,13 @@ p {
 
 img {
   display: block;
-  width: 100px;
   margin: 0 auto 1.5rem;
 }
 
 .image {
   text-align: center;
   display: inline-block;
+    width: 100px;
 }
 
 .content {
