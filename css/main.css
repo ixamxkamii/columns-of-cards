@@ -1,7 +1,115 @@
 html {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *,*::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
+  display: block;
+  margin: 0;
+}
+
+h3 {
+  font-style: italic;
+  display: block;
+  margin: 0;
+  font-size: .875rem;
+  font-weight: normal;
+}
+
+p {
+  display: block;
+  margin: 0;
+}
+
+.cards {
+  padding: .75em;
+  float: left;
+  width: 25%;
+  margin: 0;
+  text-align: center;
+  min-height: 26rem;
+}
+
+.anderon {
+  background-color: #e2e2e2;
+  border-left: 1px solid #000;
+}
+
+.dinosaur {
+  background-color: #ccc;
+  border-left: 1px solid #000;
+}
+
+.dragon {
+  background-color: #aaa;
+  border-left: 1px solid #000;
+}
+
+.light {
+  background-color: #999;
+  border-left: 1px solid #000;
+}
+
+img {
+  display: block;
+  width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+.image {
+  text-align: center;
+  display: inline-block;
+}
+
+.content {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto 1.5rem;
+}
+
+.btns {
+  text-align: left;
+}
+
+.btn-small {
+  padding-top: .3em;
+  padding-bottom: .3em;
+  font-size: .875rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  padding: .4em .75em;
+  border: 3px solid #333;
+  border-radius: 9px;
+}
+
+a, a:link {
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
+  border: 3px solid #000;
 }
